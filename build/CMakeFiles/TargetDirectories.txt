@@ -1,0 +1,3 @@
+/mnt/d/ZZZ/КПІ/3 КУРС/2 СЕМЕСТР/Теоретико-числові алгоритми в криптології/Lab/Lab3/LAB3/build/CMakeFiles/LAB3.dir
+/mnt/d/ZZZ/КПІ/3 КУРС/2 СЕМЕСТР/Теоретико-числові алгоритми в криптології/Lab/Lab3/LAB3/build/CMakeFiles/edit_cache.dir
+/mnt/d/ZZZ/КПІ/3 КУРС/2 СЕМЕСТР/Теоретико-числові алгоритми в криптології/Lab/Lab3/LAB3/build/CMakeFiles/rebuild_cache.dir
