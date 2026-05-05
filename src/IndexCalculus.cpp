@@ -178,7 +178,7 @@ static std::optional<uint64_t> DLP( uint64_t p, uint64_t alpha, uint64_t beta, u
 std::expected<DLPResult, Error> index_calculus( uint64_t p, uint64_t alpha, uint64_t beta) {
 
     if (p < 3u || !miller_rabin(p)) return std::unexpected(Error::InvalidInput);
-    if (!is_primitive_root(alpha, p)) return std::unexpected(Error::InvalidGenerator);
+	if (!is_primitive_root(alpha, p)) return std::unexpected(Error::InvalidGenerator); //=> якщо не буде, СЛР треба робити по модулю генератора альфа і перевірка чи взагалі бета лежить всередині групи яку генерує альфа => пошук порядку альфа(на вхід не подається, задача факторизації), перевірка чи бета належить групі генератора альфа: beta ^ ord(alpha) = 1 (mod p). + метожичны матерыалу щодо входу прямо вказують що альфа генератор групи
     if (beta == 0u || beta >= p) return std::unexpected(Error::InvalidInput);
 
     const auto start = Clock::now();
