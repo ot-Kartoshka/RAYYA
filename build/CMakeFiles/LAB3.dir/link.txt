@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/LAB3.dir/main.cpp.o CMakeFiles/LAB3.dir/src/IndexCalculus.cpp.o CMakeFiles/LAB3.dir/src/Errors.cpp.o CMakeFiles/LAB3.dir/src/NumberUtils.cpp.o -o LAB3 
